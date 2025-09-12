@@ -6,7 +6,7 @@
 <PageTitle>Aspire Shop Product Catalog</PageTitle>
 
 <header class="d-flex align-items-center justify-content-center">
-    <h1 class="app-name pa-4">&lt;AspireShop /&gt;</h1>
+    <h1 class="app-name pa-4">&lt;AspireShop /&gt; - Aspire Version @aspireVersion</h1>
     <div class="flex-spacer"></div>
     <h2 class="text-align-center">Product Catalog</h2>
     <div class="flex-spacer"></div>
@@ -62,6 +62,7 @@
 <AppFooter />
 
 @code {
+    private string aspireVersion = "9.4.2";
     bool basketIsAvailable;
     CatalogItemsPage? catalog;
     PaginationInfo paginationInfo = new(FirstId: 0, NextId: 0, HasPreviousPage: false, HasNextPage: false);
