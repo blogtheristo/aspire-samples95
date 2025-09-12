@@ -10,7 +10,7 @@ urlFragment: "aspire-shop"
 description: "An example shop app written with .NET Aspire."
 ---
 
-# Aspire Shop
+# Aspire Shop AspireShop Aspire 9.4.2 Version
 
 ![Screenshot of the web front end the .NET Aspire Shop sample](./images/aspireshop-frontend-complete.png)
 
