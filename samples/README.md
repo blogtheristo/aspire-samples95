@@ -30,6 +30,15 @@ This repository contains a comprehensive collection of .NET Aspire sample applic
 - Modern container orchestration
 - **New samples added**: AspireWithAzureFunctions and CustomResources
 
+### 🆕 Aspire 9.5 New Features Available:
+- **Dashboard Enhancements**: Multi-resource console logs ("All" view), GenAI visualizer for LLM interactions
+- **AI Hosting Integrations**: OpenAI, Azure AI Foundry, and GitHub models support
+- **Dev Tunnels**: Secure sharing of local development apps
+- **YARP Static Files**: Direct static file serving capabilities
+- **Enhanced CLI**: New `aspire update` command (preview) for easy upgrades
+
+For complete details, see the [official Aspire 9.5 announcement](https://devblogs.microsoft.com/dotnet/announcing-dotnet-aspire-95/).
+
 ## Prerequisites
 
 - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
@@ -50,6 +59,26 @@ For example, to run AspireShop:
 cd AspireShop
 dotnet run --project AspireShop.AppHost
 ```
+
+## Upgrading to Aspire 9.5
+
+To upgrade your own projects to Aspire 9.5, you can use the new `aspire update` command (preview):
+
+```powershell
+# Install or update Aspire CLI
+iex "& { $(irm https://aspire.dev/install.ps1) }"
+
+# Update your project to Aspire 9.5 (preview command)
+aspire update
+```
+
+The `aspire update` command automatically:
+- Updates your SDK and AppHost packages
+- Validates package compatibility
+- Supports channel awareness (stable, daily, or custom builds)
+- Asks for confirmation before making changes
+
+For manual updates or more details, see the [official Aspire 9.5 announcement](https://devblogs.microsoft.com/dotnet/announcing-dotnet-aspire-95/).
 
 ## About .NET Aspire
 
