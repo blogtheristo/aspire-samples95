@@ -1,6 +1,8 @@
 # .NET Aspire Samples - Updated to Aspire 9.5.0 🚀
 
-[![CI (main)](https://github.com/dotnet/aspire-samples/actions/workflows/ci.yml/badge.svg)](https://github.com/dotnet/aspire-samples/actions/workflows/ci.yml)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/blogtheristo/aspire-samples95)
+[![Aspire Version](https://img.shields.io/badge/Aspire-9.5.0-blue.svg)](https://learn.microsoft.com/dotnet/aspire/whats-new/dotnet-aspire-9.5)
+[![.NET](https://img.shields.io/badge/.NET-8.0-purple.svg)](https://dotnet.microsoft.com/download/dotnet/8.0)
 
 Samples for .NET Aspire - **Updated to version 9.5.0**
 
