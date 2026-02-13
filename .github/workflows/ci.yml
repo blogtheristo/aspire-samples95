@@ -53,13 +53,13 @@ jobs:
 
     - name: "Install .NET SDK (baseline: ${{ env.DOTNET_BASELINE_SDK_VERSION }})"
       if: matrix.os == 'ubuntu-latest' && matrix.sdk == 'sdk-baseline'
-      uses: actions/setup-dotnet@v4
+      uses: actions/setup-dotnet@v5
       with:
         dotnet-version: ${{ env.DOTNET_BASELINE_SDK_VERSION }}
 
     - name: "Install .NET SDK (global.json)"
       if: matrix.sdk == 'sdk-global-json'
-      uses: actions/setup-dotnet@v4
+      uses: actions/setup-dotnet@v5
       with:
         global-json-file: ${{ matrix.os == 'ubuntu-latest' && './global.json' || '.\global.json' }}
     
